@@ -10,7 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 public class Actiondemo {
 
 	public static void main(String[] args) {
-		System.setProperty("WebDriver.chrome.driver","C:\\Users\\prakumar\\Downloads\\Java\\chromedriver_win32\\chromedriver.exe");
+//		System.setProperty("WebDriver.chrome.driver","C:\\Users\\prakumar\\Downloads\\Java\\chromedriver_win32\\chromedriver.exe");
 		WebDriver Driver =new ChromeDriver();
 		Driver.get("https://www.amazon.in/");
 		Driver.manage().window().maximize();
